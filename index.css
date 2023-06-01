@@ -78,3 +78,60 @@ body {
     margin-top:20px;
     color: gray;
 }
+
+/* login */
+
+.login{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+}
+
+input[type=text]{
+    width:85vw;
+    height:6vh;
+    border:none;
+    border-bottom:solid 1px gray;
+
+}
+
+input[type="text"]:focus {
+    border-bottom: 2px solid rgb(255, 226, 36);
+    outline: none;
+}
+
+input[type="password"]{
+    width:85vw;
+    height:6vh;
+    margin-top: 10px;
+    border:none;
+    border-bottom:solid 1px gray;
+}
+
+input[type="password"]:focus {
+    border-bottom: 2px solid rgb(255, 226, 36);
+    outline: none;
+}
+
+input[type=submit]{
+    width:85vw;
+    height:8vh;
+    margin-top: 20px;
+    background-color: rgb(255, 226, 36);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+input[value="Log in"]{
+    font-size: large;
+}
+
+/* finding */
+.finding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
