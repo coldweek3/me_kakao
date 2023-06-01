@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: "AppleSDGothicNeoB";
+    /* font-size: 1.2rem; */
+    font-weight: 600;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    /* border: solid 13px black */
+}
+
+/* nav bar */
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.service_status{
+    display: flex;
+    float: left;
+    justify-content: space-between;
+}
+
+#skt{
+    padding-right: 5px;
+    font-size: small;
+    font-size: 0.8rem;
+}
+
+.fa-wifi{
+    font-size: 0.8rem;
+} 
+
+.time_now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+#battery_status{
+    padding-right: 5px;
+}
+
+.fa-battery-full{
+    padding-right: 5px;;
+}
+
+.battery{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* welcome */
+
+.welcome{
+    margin-top: 55px;
+}
+
+.hi{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: x-large;
+}
+
+.info{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size:medium;
+    text-align: center;
+    margin-top:20px;
+    color: gray;
+}
