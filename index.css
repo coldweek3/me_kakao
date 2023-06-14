@@ -7,9 +7,9 @@
 }
 
 body {
-    width: 100vw;
+    /* width: 100vw;
     height: 100vh;
-    padding: 10px;
+    padding: 10px; */
     /* border: solid 13px black */
 }
 
@@ -90,7 +90,7 @@ body {
 
 input[type=text]{
     width:85vw;
-    height:6vh;
+    height:10vh;
     border:none;
     border-bottom:solid 1px gray;
 
@@ -103,7 +103,7 @@ input[type="text"]:focus {
 
 input[type="password"]{
     width:85vw;
-    height:6vh;
+    height:10vh;
     margin-top: 10px;
     border:none;
     border-bottom:solid 1px gray;
@@ -117,7 +117,7 @@ input[type="password"]:focus {
 input[type=submit]{
     width:85vw;
     height:8vh;
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: rgb(255, 226, 36);
     outline: none;
     border: none;
