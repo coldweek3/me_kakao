@@ -196,3 +196,11 @@ html{
     margin-left: -10px;
     margin-top: -3px;
 }
+
+.fa-comment{
+    color: black;
+}
+
+.fa-solid, .fas {
+    color: black;
+}
